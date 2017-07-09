@@ -7,12 +7,8 @@
 </listeners>
 	<test name="Registration">
 		<classes>
-				<class name="com.planon.iwms.testscripts.TC002_testRegistraion" />
+				<class name="com.planon.iwms.testscripts.LoginToApplication" />
 		</classes>
 	</test>
-	<test name="RegistrationTest">
-		<classes>
-			<class name="com.planon.iwms.testscripts.Test1" />
-		</classes>
-	</test>
+	
 </suite> 

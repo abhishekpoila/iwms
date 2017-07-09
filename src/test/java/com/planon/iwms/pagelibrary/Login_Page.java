@@ -15,7 +15,7 @@ public class Login_Page extends TestBase{
 	
 	   By usr = By.id("j_username");
 	   By pwd = By.id("j_password");
-	   By sbt = By.id("input.submit");
+	   By sbt = By.xpath("//*[@id='loginForm']/div[4]/input");
 	   
 	  
 
@@ -42,4 +42,8 @@ public class Login_Page extends TestBase{
 			log.info("entering password to login");
 			driver.findElement(pwd).sendKeys(psword);
 		}
+		public void loginToApplication(){
+			enterusername("supervisor");
+			enterpassword("pADLndqbo");
+			clickonSignIn();		}
 }
